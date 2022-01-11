@@ -9,19 +9,29 @@ namespace MultiThreadCSharp
         {
             Console.WriteLine("Welcome to multiThreading");
 
-            BaseClass myInstance = new BaseClass();
+            using (var m1 = new Mutex(false,"OnlyInstanceOfTheApp"))
+            {
+                if(!m1.WaitOne(3000,false))
+                {
+                    Console.WriteLine("One instance is already running atm !! There can be only one simultaneously");
+                    Console.ReadLine();
+                }
 
-            //System.OverflowException: 'Arithmetic operation resulted in an overflow.'
-            //Normaly with this setup you would get this error above. Because multiple threads are overwriting eachothers values.
-            //To solve this issues we use lock.
+                BaseClass myInstance = new BaseClass();
 
-            Thread thread1 = new Thread(new ThreadStart(myInstance.DivideLoop));
-            Thread thread2 = new Thread(new ThreadStart(myInstance.DivideLoop));
+                //System.OverflowException: 'Arithmetic operation resulted in an overflow.'
+                //Normaly with this setup you would get this error above. Because multiple threads are overwriting eachothers values.
+                //To solve this issues we use lock.
 
-            thread1.Start();
-            thread2.Start();
+                Thread thread1 = new Thread(new ThreadStart(myInstance.DivideLoop));
+                Thread thread2 = new Thread(new ThreadStart(myInstance.DivideLoop));
 
-            Console.Read();
+                thread1.Start();
+                thread2.Start();
+
+                Console.Read();
+
+            }
 
         }
 
