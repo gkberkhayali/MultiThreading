@@ -1,0 +1,16 @@
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.exe
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.deps.json
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.runtimeconfig.json
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.runtimeconfig.dev.json
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.dll
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\ref\MultiThreadCSharp.dll
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\bin\Debug\net5.0\MultiThreadCSharp.pdb
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.csproj.AssemblyReference.cache
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.AssemblyInfoInputs.cache
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.AssemblyInfo.cs
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.csproj.CoreCompileInputs.cache
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.dll
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\ref\MultiThreadCSharp.dll
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.pdb
+C:\Users\gokbe\source\repos\Microservices\MultiThreadCSharp\obj\Debug\net5.0\MultiThreadCSharp.genruntimeconfig.cache
